@@ -1,12 +1,7 @@
 <?php
-
-    //El uso de una ps eudo-matriz (arreglo de arreglos)
-
     $arrHamburguesas = array();
     $arrRefrescos = array();
     $resultado = "";
-
-
 
 
     $arrHamburguesas[] = Array(
@@ -83,7 +78,7 @@
      <title>RUMBA BURGUER</title>
    </head>
    <body>
-      <form action="ejercicio_hamburguesas.php" method="post">
+      <form action="ejercicio_hamburguesas1.php" method="post">
         <br>
         <input type="submit" value="ENVIAR"
          name="btnenviar" id="btnenviar"/>
